@@ -1,6 +1,6 @@
 
 const express = require('express');
-const employee =require('../User Managment Module/controllers/Employee_controller');
+const employee =require('../User Managment Module/Controllers/Employee_controller');
 const credentials = require('../User Managment Module/Controllers/Employee_credential_controller');
 const Respond = require('../helpers/Response');
 const storage = require('../helpers/utility')
