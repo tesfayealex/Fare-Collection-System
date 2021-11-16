@@ -1,10 +1,10 @@
 const express = require('express');
-const customer =require('../User Managment Module/controllers/Customer_controller');
-const wallet = require('../Wallet Module/Controllers/Wallet_controller');
-const wallet_Transaction = require('../Wallet Module/Controllers/Wallet_Transaction_Controller');
-const wallet_credential = require('../Wallet Module/Controllers/Wallet_credential_controller');
+const customer =require('../user_managment_module/controllers/customer_controller');
+const wallet = require('../wallet_module/controllers/wallet_controller');
+const wallet_Transaction = require('../wallet_module/controllers/wallet_transaction_controller');
+const wallet_credential = require('../wallet_module/controllers/wallet_credential_controller');
 //const help = require('../helpers/index');
-const Respond = require('../helpers/Response');
+const Respond = require('../helpers/response');
 const storage = require('../helpers/utility');
 const multer=require('multer');
 const path = require('path');

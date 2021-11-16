@@ -2,9 +2,9 @@
 const express = require('express');
 //const employee = require('../User Managment Module/controllers/Employee_controller');
 //const bus = require('../Organization Module/controllers/Bus_controller');
-const role =require('../User Managment Module/Controllers/Role_Controller');
-const Response = require('../helpers/Response');
-const { role_chooser } = require('../User Managment Module/Controllers/Role_Controller');
+const role =require('../user_managment_module/controllers/role_controller');
+const Response = require('../helpers/response');
+const { role_chooser } = require('../user_managment_module/controllers/role_controller');
 //const multer = require('multer');
 const router = express.Router();
 

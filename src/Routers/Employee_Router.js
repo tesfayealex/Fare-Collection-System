@@ -1,8 +1,8 @@
 
 const express = require('express');
-const employee =require('../User Managment Module/Controllers/Employee_controller');
-const credentials = require('../User Managment Module/Controllers/Employee_credential_controller');
-const Respond = require('../helpers/Response');
+const employee =require('../user_managment_module/controllers/employee_controller');
+const credentials = require('../user_managment_module/controllers/employee_credential_controller');
+const Respond = require('../helpers/response');
 const storage = require('../helpers/utility')
 const multer=require('multer');
 const path = require('path');

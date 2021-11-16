@@ -2,9 +2,9 @@
 const express = require('express');
 //const employee = require('../User Managment Module/controllers/Employee_controller');
 //const bus = require('../Organization Module/controllers/Bus_controller');
-const notification =require('../Notification And Help Module/Controller/Notification Controller');
+const notification =require('../notification_and_help_module/controller/notification_controller');
 //const help = require('../Notification And Help Module/Controller/Help Desk Controller')
-const Response = require('../helpers/Response');
+const Response = require('../helpers/response');
 //const multer = require('multer');
 const router = express.Router();
 const storage = require('../helpers/utility')

@@ -1,9 +1,9 @@
 const express = require('express');
 //const employee =require('../User Managment Module/controllers/Employee_controller');
-const machine =require('../Organization Module/controllers/Machine_controller');
+const machine =require('../organization_module/controllers/machine_controller');
 
 //const Branch =require('../Organization Module/controllers/Branch_controller');
-const Respond = require('../helpers/Response');
+const Respond = require('../helpers/response');
 const router = express.Router();
 
 router.post("/register", async (req,res)=>{

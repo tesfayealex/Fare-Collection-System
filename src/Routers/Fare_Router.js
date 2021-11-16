@@ -2,8 +2,8 @@
 const express = require('express');
 //const employee = require('../User Managment Module/controllers/Employee_controller');
 //const bus = require('../Organization Module/controllers/Bus_controller');
-const fare =require('../Transaction Managment Module/controllers/Fare_Controller');
-const Respond = require('../helpers/Response');
+const fare =require('../transaction_managment_module/controllers/fare_controller');
+const Respond = require('../helpers/response');
 //const multer = require('multer');
 const router = express.Router();
 

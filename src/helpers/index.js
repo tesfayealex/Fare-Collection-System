@@ -1,7 +1,7 @@
 //const Employee = require('../User Managment Module/Models/Employee');
 //const Employee_credential = require('../User Managment Module/Models/Employee_credential');
 
-const Employee_credential = require('../User Managment Module/Controllers/Employee_credential_controller');
+const Employee_credential = require('../user_managment_module/controllers/employee_credential_controller');
 //const Role = require('../User Managment Module/Controllers/Role_Controller');
 //const {Role} = require('./internal');
 //const emp = require('../User Managment Module/Models/Employee_credential')

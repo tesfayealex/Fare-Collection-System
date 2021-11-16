@@ -2,9 +2,9 @@
 const express = require('express');
 //const employee =require('../User Managment Module/controllers/Employee_controller');
 //const organization =require('../Organization Module/controllers/Organization_controller');
-const branch =require('../Organization Module/controllers/Branch_controller');
+const branch =require('../organization_module/controllers/branch_controller');
 //const help = require('../helpers/index');
-const Respond = require('../helpers/Response');
+const Respond = require('../helpers/response');
 //const multer=require('multer');
 //const path = require('path');
 const router = express.Router();

@@ -2,8 +2,8 @@
 const express = require('express');
 //const employee = require('../User Managment Module/controllers/Employee_controller');
 //const bus = require('../Organization Module/controllers/Bus_controller');
-const station =require('../Organization Module/controllers/Station_controller');
-const Respond = require('../helpers/Response');
+const station =require('../organization_module/controllers/station_controller');
+const Respond = require('../helpers/response');
 //const multer = require('multer');
 const router = express.Router();
 const ors = require('../config/openrouteservice');

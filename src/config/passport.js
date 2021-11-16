@@ -1,9 +1,9 @@
 const {ExtractJwt, Strategy } = require('passport-jwt');
 //const Role = require('../User Managment Module/Models/Role');
-const Employee_credential = require('../User Managment Module/Controllers/Employee_credential_controller');
-const Customer = require('../Wallet Module/Controllers/Wallet_controller');
+const Employee_credential = require('../user_managment_module/controllers/employee_credential_controller');
+const Customer = require('../wallet_module/controllers/wallet_controller');
 //const Machine = require('../Organization Module/Controllers/Machine_controller')
-const Machine = require('../Organization Module/Controllers/Machine_controller')
+const Machine = require('../organization_module/controllers/machine_controller')
 const config = require('../config/index');
 
 module.exports =  (user_Type , passport)=>{

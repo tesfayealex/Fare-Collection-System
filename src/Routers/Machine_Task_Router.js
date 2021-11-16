@@ -1,8 +1,8 @@
 const express = require('express');
-const ticket = require('../Transaction Managment Module/controllers/Ticket_Controller');
-const transaction =require('../Transaction Managment Module/controllers/Transaction_controller');
-const route = require('../Organization Module/Controllers/Route_controller');
-const Respond = require('../helpers/Response');
+const ticket = require('../transaction_managment_module/controllers/ticket_controller');
+const transaction =require('../transaction_managment_module/controllers/transaction_controller');
+const route = require('../organization_module/controllers/route_controller');
+const Respond = require('../helpers/response');
 //const multer=require('multer');
 //const path = require('path');
 const router = express.Router();

@@ -4,8 +4,8 @@
 //const {Role} = require('./internal');
 //const emp = require('../User Managment Module/Models/Employee_credential')
 const passport = require('passport');
-const Employee = require('../User Managment Module/Models/Employee_credential');
-const Role = require('../User Managment Module/Models/Role');
+const Employee = require('../user_managment_module/models/employee_credential');
+const Role = require('../user_managment_module/models/role');
 
 
 const authenticate_User = passport.authenticate('jwt' , {session: false});
