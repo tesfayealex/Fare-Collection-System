@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const unique_Validator = require('mongoose-unique-validator');
-const geoschema = require('../../helpers/GeoSchema');
+const geoschema = require('../../helpers/geoschema');
 const station_Schema = new mongoose.Schema({
        station_Id: {
             type: String,
