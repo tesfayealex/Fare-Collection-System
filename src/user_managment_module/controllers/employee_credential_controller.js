@@ -6,7 +6,7 @@ const config = require('../../config/index');
 const jwt = require('jsonwebtoken');
 const Auth = require('../../helpers/authenticator');
 const Respond = require('../../helpers/response');
-const Role = require('../controllers/role_Controller');
+const Role = require('../controllers/role_controller');
 // const mongoose = require('mongoose')
 // //const New_Employee = require('../Models/New_Employee');
 
