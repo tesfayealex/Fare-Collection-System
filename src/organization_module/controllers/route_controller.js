@@ -1,6 +1,6 @@
 
 
-const Route = require('../models/Route');
+const Route = require('../models/route');
 const Station = require('../controllers/station_controller');
 const Respond = require('../../helpers/response');
 const Auth = require('../../helpers/authenticator');

@@ -1,6 +1,6 @@
 
 
-const Station = require('../Models/station');
+const Station = require('../models/station');
 const Respond = require('../../helpers/response');
 const Auth = require('../../helpers/authenticator');
 //const geocoder = require('../../config/geocoder');
