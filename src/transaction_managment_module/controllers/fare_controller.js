@@ -1,5 +1,5 @@
 
-const Fare = require('../Models/fare');
+const Fare = require('../models/fare');
 const Respond = require('../../helpers/response');
 const Auth = require('../../helpers/authenticator');
 const Notification = require('../../notification_and_help_module/controller/notification_controller')
