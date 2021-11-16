@@ -1,5 +1,5 @@
 
-const Role = require('../Models/role');
+const Role = require('../models/role');
 //const help = require('../../helpers');
 const Auth = require('../../helpers/authenticator')
 const Respond = require('../../helpers/response')
