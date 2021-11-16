@@ -142,8 +142,7 @@ app.use('/api/Machine', authenticate.authenticate_User , Machine )
 app.use('/api/Employee/Notification', authenticate.authenticate_User , Notification)
 app.use('/api/Employee/HelpDesk', authenticate.authenticate_User , Help)
 app.use('/api/Customer/HelpDesk', authenticate.authenticate_User , customer_help)
-const port = process.env.PORT || 4000;
-console.log(port)
+const port = process.env.PORT || 5000;
 app.listen(port);//, '0.0.0.0'
 // https.createServer({
 //   key: fs.readFileSync('server.key'),
